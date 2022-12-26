@@ -14,36 +14,6 @@
 
 Более детальное опаисание проекта со схемами взаимодействий находится в директории [template](app_structure/template) 
 
-## Запуск
-1. Запуск docker производится из папки [docker](main/server/docker) командой:
-
-```docker-compose up --build```
-
-2. Заполнение базы данных статей осуществляется в директории [fill_articles](main/server/fill_articles), а информаци о докладчиках в [fill_persons](main/server/fill_persons), build также осуществляется с помощью CMake. Пример для заполнения базы докладчиков:
-```
-cd fill_persons
-mkdir build
-cd build
-cmake ..
-cmake --build . --config Release
-cd ../
-./sql_load
-
-
-3. Build осуществляется с помощью CMake из директории `main`:
-```
-mkdir build
-cd build
-cmake ..
-cmake --build . --config Release
-```
-
-4. Приложение запускается командой: 
-
-```sudo ./build/server --host=localhost --port=3306 --login=stud --password=stud --database=stud```
-
-
-
 ## Зависимости
 Необходимо установить следующие зависимости:
 
@@ -67,5 +37,36 @@ cd
 sudo ldconfig
 ```
 
+## Запуск
+1. Запуск docker производится из папки [docker](main/server/docker) командой:
 
-  
+```docker-compose up --build```
+
+2. Заполнение базы данных статей осуществляется в директории [fill_articles](main/server/fill_articles), а информаци о докладчиках в [fill_persons](main/server/fill_persons), build также осуществляется с помощью CMake. Пример для заполнения базы докладчиков:
+```
+cd fill_persons
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+cd ../
+./sql_load 127.0.0.1
+```
+
+
+3. Build сервера осуществляется с помощью CMake из директории `main/server`:
+```
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+```
+
+4. Приложение запускается командой: 
+
+```sudo ./build/server --host=127.0.0.1 --port=6033 --login=test --password=pzjqUkMnc7vfNHET --database=sql_test```
+
+## Пример запроса для добавления автора
+```
+curl -X POST -d "first_name=Viktor&last_name=Fet&login=some_login&email=test@test.ti" 127.0.0.1/author
+```
