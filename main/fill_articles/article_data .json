@@ -1,3 +1,992 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:58985ca808022f83014e68457ea55331948b106b7a8baa4450e1cfa60bee904a
-size 28185
+[
+ {
+   "article_id": 1,
+   "article_number_in_catalog": "506-48-51471-68-0",
+   "organization": "University of Miami",
+   "field_of_study": "Music",
+   "article_dt": "6/14/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 2,
+   "article_number_in_catalog": "564-66-32701-05-6",
+   "organization": "University at Buffalo SUNY",
+   "field_of_study": "Latin",
+   "article_dt": "9/18/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 3,
+   "article_number_in_catalog": "843-38-65842-71-6",
+   "organization": "Howard University",
+   "field_of_study": "Art",
+   "article_dt": "3/9/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 4,
+   "article_number_in_catalog": "508-62-45143-25-1",
+   "organization": "University of Maryland, Baltimore County",
+   "field_of_study": "Art",
+   "article_dt": "7/10/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 5,
+   "article_number_in_catalog": "140-38-54367-86-2",
+   "organization": "Brandeis University",
+   "field_of_study": "Geography",
+   "article_dt": "7/26/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "08:21"
+ },
+ {
+   "article_id": 6,
+   "article_number_in_catalog": "781-11-33536-56-1",
+   "organization": "Boston University",
+   "field_of_study": "Geography",
+   "article_dt": "12/12/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 7,
+   "article_number_in_catalog": "620-07-50367-62-3",
+   "organization": "Iowa State University",
+   "field_of_study": "Ecology",
+   "article_dt": "7/17/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 8,
+   "article_number_in_catalog": "813-26-36705-23-7",
+   "organization": "University of Southern California",
+   "field_of_study": "English IV",
+   "article_dt": "7/22/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 9,
+   "article_number_in_catalog": "568-68-23550-00-7",
+   "organization": "California Institute of Technology (Caltech)",
+   "field_of_study": "Basic Math",
+   "article_dt": "10/12/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 10,
+   "article_number_in_catalog": "526-62-26534-16-4",
+   "organization": "University of Massachusetts Amherst",
+   "field_of_study": "Language Arts",
+   "article_dt": "7/8/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 11,
+   "article_number_in_catalog": "415-72-07724-23-3",
+   "organization": "Wake Forest University",
+   "field_of_study": "French",
+   "article_dt": "6/4/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 12,
+   "article_number_in_catalog": "762-04-86317-22-4",
+   "organization": "Pennsylvania State University",
+   "field_of_study": "Ecology",
+   "article_dt": "2/6/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 13,
+   "article_number_in_catalog": "260-55-88226-47-0",
+   "organization": "Rice University",
+   "field_of_study": "Art",
+   "article_dt": "10/28/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "21:49"
+ },
+ {
+   "article_id": 14,
+   "article_number_in_catalog": "837-27-00636-38-3",
+   "organization": "University of California, Riverside",
+   "field_of_study": "Mathematics",
+   "article_dt": "2/27/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 15,
+   "article_number_in_catalog": "345-15-31071-70-1",
+   "organization": "Virginia Polytechnic Institute and State University",
+   "field_of_study": "Trigonometry",
+   "article_dt": "7/7/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 16,
+   "article_number_in_catalog": "505-45-80138-43-6",
+   "organization": "University of Texas at Austin",
+   "field_of_study": "Spanish",
+   "article_dt": "12/3/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 17,
+   "article_number_in_catalog": "127-12-64066-40-1",
+   "organization": "University of California, San Diego (UCSD)",
+   "field_of_study": "Spanish",
+   "article_dt": "10/26/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "22:56"
+ },
+ {
+   "article_id": 18,
+   "article_number_in_catalog": "783-75-64018-53-1",
+   "organization": "Columbia University",
+   "field_of_study": "Grammar",
+   "article_dt": "9/2/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 19,
+   "article_number_in_catalog": "624-73-78125-70-1",
+   "organization": "Iowa State University",
+   "field_of_study": "Instrumental Music",
+   "article_dt": "7/26/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 20,
+   "article_number_in_catalog": "673-03-51775-75-5",
+   "organization": "Purdue University",
+   "field_of_study": "Design and technology",
+   "article_dt": "10/17/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 21,
+   "article_number_in_catalog": "476-85-58702-57-0",
+   "organization": "Brandeis University",
+   "field_of_study": "Language Arts",
+   "article_dt": "2/26/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 22,
+   "article_number_in_catalog": "173-03-02103-07-1",
+   "organization": "Brown University",
+   "field_of_study": "Speech",
+   "article_dt": "2/4/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "09:09"
+ },
+ {
+   "article_id": 23,
+   "article_number_in_catalog": "804-62-18321-54-0",
+   "organization": "Cornell University",
+   "field_of_study": "Ecology",
+   "article_dt": "12/4/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 24,
+   "article_number_in_catalog": "488-55-15671-53-0",
+   "organization": "The University of Arizona",
+   "field_of_study": "English IV",
+   "article_dt": "2/28/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 25,
+   "article_number_in_catalog": "526-20-73470-88-7",
+   "organization": "Tulane University",
+   "field_of_study": "Trigonometry",
+   "article_dt": "9/1/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 26,
+   "article_number_in_catalog": "463-78-43038-72-2",
+   "organization": "Iowa State University",
+   "field_of_study": "Spanish",
+   "article_dt": "11/20/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 27,
+   "article_number_in_catalog": "463-67-13861-32-4",
+   "organization": "University of South Florida",
+   "field_of_study": "Modern Literature",
+   "article_dt": "2/4/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 28,
+   "article_number_in_catalog": "232-04-25643-78-1",
+   "organization": "Northwestern University",
+   "field_of_study": "Health",
+   "article_dt": "3/2/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "17:01"
+ },
+ {
+   "article_id": 29,
+   "article_number_in_catalog": "387-06-24474-61-3",
+   "organization": "University at Buffalo SUNY",
+   "field_of_study": "Modern Literature",
+   "article_dt": "11/2/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 30,
+   "article_number_in_catalog": "772-78-40773-78-1",
+   "organization": "University of Massachusetts Amherst",
+   "field_of_study": "American Literature",
+   "article_dt": "2/12/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 31,
+   "article_number_in_catalog": "308-23-07875-28-2",
+   "organization": "Colorado State University",
+   "field_of_study": "Economics",
+   "article_dt": "5/2/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 32,
+   "article_number_in_catalog": "814-18-78523-48-7",
+   "organization": "University of Maryland, College Park",
+   "field_of_study": "German",
+   "article_dt": "8/3/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 33,
+   "article_number_in_catalog": "848-46-36567-30-1",
+   "organization": "Rutgers University - New Brunswick",
+   "field_of_study": "Spanish",
+   "article_dt": "1/3/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 34,
+   "article_number_in_catalog": "638-08-73430-35-6",
+   "organization": "University of Colorado Boulder",
+   "field_of_study": "Basic Math",
+   "article_dt": "3/31/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 35,
+   "article_number_in_catalog": "087-12-12711-02-1",
+   "organization": "Virginia Polytechnic Institute and State University",
+   "field_of_study": "Basic Math",
+   "article_dt": "8/29/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "14:56"
+ },
+ {
+   "article_id": 36,
+   "article_number_in_catalog": "177-46-36822-37-0",
+   "organization": "Georgia Institute of Technology",
+   "field_of_study": "Health",
+   "article_dt": "3/4/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "16:54"
+ },
+ {
+   "article_id": 37,
+   "article_number_in_catalog": "138-78-38312-66-2",
+   "organization": "Oregon State University",
+   "field_of_study": "Speech",
+   "article_dt": "8/3/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "18:10"
+ },
+ {
+   "article_id": 38,
+   "article_number_in_catalog": "160-28-86455-15-1",
+   "organization": "Texas A&M University",
+   "field_of_study": "Earth Science",
+   "article_dt": "7/18/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "21:39"
+ },
+ {
+   "article_id": 39,
+   "article_number_in_catalog": "356-56-63764-46-0",
+   "organization": "Iowa State University",
+   "field_of_study": "German",
+   "article_dt": "8/13/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 40,
+   "article_number_in_catalog": "468-65-41437-35-6",
+   "organization": "The Ohio State University",
+   "field_of_study": "Mathematics",
+   "article_dt": "4/30/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 41,
+   "article_number_in_catalog": "473-24-87223-51-7",
+   "organization": "University of Washington",
+   "field_of_study": "Geography",
+   "article_dt": "4/13/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 42,
+   "article_number_in_catalog": "460-28-62577-64-7",
+   "organization": "University of Pittsburgh",
+   "field_of_study": "American Literature",
+   "article_dt": "12/20/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 43,
+   "article_number_in_catalog": "426-43-00516-58-5",
+   "organization": "University of California, Riverside",
+   "field_of_study": "Dramatics",
+   "article_dt": "5/25/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 44,
+   "article_number_in_catalog": "242-73-42584-64-8",
+   "organization": "Cornell University",
+   "field_of_study": "Science",
+   "article_dt": "5/29/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "23:59"
+ },
+ {
+   "article_id": 45,
+   "article_number_in_catalog": "528-61-14162-03-8",
+   "organization": "University of Texas at Austin",
+   "field_of_study": "Sociology",
+   "article_dt": "2/14/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 46,
+   "article_number_in_catalog": "552-02-10641-25-4",
+   "organization": "California Institute of Technology (Caltech)",
+   "field_of_study": "Grammar",
+   "article_dt": "3/14/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 47,
+   "article_number_in_catalog": "263-01-55376-33-1",
+   "organization": "University of Kansas",
+   "field_of_study": "Geography",
+   "article_dt": "9/12/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "01:05"
+ },
+ {
+   "article_id": 48,
+   "article_number_in_catalog": "522-74-21756-60-2",
+   "organization": "New York University",
+   "field_of_study": "Geography",
+   "article_dt": "7/15/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 49,
+   "article_number_in_catalog": "524-21-35354-16-7",
+   "organization": "University of Kansas",
+   "field_of_study": "Instrumental Music",
+   "article_dt": "1/18/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 50,
+   "article_number_in_catalog": "628-64-65354-16-4",
+   "organization": "University of Maryland, College Park",
+   "field_of_study": "Art",
+   "article_dt": "7/30/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 51,
+   "article_number_in_catalog": "202-64-60331-36-8",
+   "organization": "Boston University",
+   "field_of_study": "Trigonometry",
+   "article_dt": "9/8/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "10:52"
+ },
+ {
+   "article_id": 52,
+   "article_number_in_catalog": "201-53-73326-16-5",
+   "organization": "Wake Forest University",
+   "field_of_study": "Design and technology",
+   "article_dt": "7/14/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "21:43"
+ },
+ {
+   "article_id": 53,
+   "article_number_in_catalog": "077-75-03485-70-5",
+   "organization": "University of Vermont",
+   "field_of_study": "Geography",
+   "article_dt": "4/25/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "17:39"
+ },
+ {
+   "article_id": 54,
+   "article_number_in_catalog": "887-84-01751-61-7",
+   "organization": "Michigan State University",
+   "field_of_study": "Art",
+   "article_dt": "12/1/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 55,
+   "article_number_in_catalog": "275-84-67832-28-7",
+   "organization": "Virginia Polytechnic Institute and State University",
+   "field_of_study": "Geography",
+   "article_dt": "2/9/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "07:52"
+ },
+ {
+   "article_id": 56,
+   "article_number_in_catalog": "215-22-27431-74-1",
+   "organization": "Johns Hopkins University",
+   "field_of_study": "Geography",
+   "article_dt": "8/7/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "13:56"
+ },
+ {
+   "article_id": 57,
+   "article_number_in_catalog": "182-86-43422-53-7",
+   "organization": "Johns Hopkins University",
+   "field_of_study": "Ancient Civilizations",
+   "article_dt": "9/5/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "23:36"
+ },
+ {
+   "article_id": 58,
+   "article_number_in_catalog": "783-15-45526-44-3",
+   "organization": "North Carolina State University",
+   "field_of_study": "Music",
+   "article_dt": "6/8/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 59,
+   "article_number_in_catalog": "266-24-70471-53-8",
+   "organization": "Harvard University",
+   "field_of_study": "English IV",
+   "article_dt": "5/26/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "20:24"
+ },
+ {
+   "article_id": 60,
+   "article_number_in_catalog": "043-27-80312-31-4",
+   "organization": "Texas A&M University",
+   "field_of_study": "History",
+   "article_dt": "3/21/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "23:20"
+ },
+ {
+   "article_id": 61,
+   "article_number_in_catalog": "275-15-83188-16-6",
+   "organization": "University of Rochester",
+   "field_of_study": "Earth Science",
+   "article_dt": "11/2/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "22:54"
+ },
+ {
+   "article_id": 62,
+   "article_number_in_catalog": "707-50-14622-80-4",
+   "organization": "University of Miami",
+   "field_of_study": "Instrumental Music",
+   "article_dt": "9/6/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 63,
+   "article_number_in_catalog": "481-85-73246-66-1",
+   "organization": "University of North Carolina, Chapel Hill",
+   "field_of_study": "Science",
+   "article_dt": "1/7/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 64,
+   "article_number_in_catalog": "006-23-68185-82-6",
+   "organization": "University of Hawai",
+   "field_of_study": "Sociology",
+   "article_dt": "3/26/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "10:45"
+ },
+ {
+   "article_id": 65,
+   "article_number_in_catalog": "562-30-88356-70-7",
+   "organization": "The University of Georgia",
+   "field_of_study": "Trigonometry",
+   "article_dt": "12/8/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 66,
+   "article_number_in_catalog": "437-54-14363-60-4",
+   "organization": "University of Oklahoma",
+   "field_of_study": "Ancient Civilizations",
+   "article_dt": "11/30/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 67,
+   "article_number_in_catalog": "201-63-77724-27-8",
+   "organization": "Boston College",
+   "field_of_study": "Mathematics",
+   "article_dt": "12/23/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "19:50"
+ },
+ {
+   "article_id": 68,
+   "article_number_in_catalog": "181-53-78684-44-4",
+   "organization": "Harvard University",
+   "field_of_study": "English IV",
+   "article_dt": "3/4/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "18:24"
+ },
+ {
+   "article_id": 69,
+   "article_number_in_catalog": "467-50-32621-30-7",
+   "organization": "University of Vermont",
+   "field_of_study": "Science",
+   "article_dt": "5/9/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 70,
+   "article_number_in_catalog": "817-86-20708-55-8",
+   "organization": "University of Michigan",
+   "field_of_study": "Music",
+   "article_dt": "3/26/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 71,
+   "article_number_in_catalog": "462-45-07800-08-3",
+   "organization": "University of Florida",
+   "field_of_study": "Mathematics",
+   "article_dt": "9/15/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 72,
+   "article_number_in_catalog": "286-44-54127-83-1",
+   "organization": "University of Maryland, Baltimore County",
+   "field_of_study": "Resource Program",
+   "article_dt": "8/28/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "11:11"
+ },
+ {
+   "article_id": 73,
+   "article_number_in_catalog": "768-02-80601-18-5",
+   "organization": "University of Notre Dame",
+   "field_of_study": "Economics",
+   "article_dt": "2/20/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 74,
+   "article_number_in_catalog": "115-74-81704-27-7",
+   "organization": "Michigan State University",
+   "field_of_study": "French",
+   "article_dt": "10/7/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "18:28"
+ },
+ {
+   "article_id": 75,
+   "article_number_in_catalog": "242-86-75043-86-8",
+   "organization": "University of Connecticut",
+   "field_of_study": "American Literature",
+   "article_dt": "11/2/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "16:12"
+ },
+ {
+   "article_id": 76,
+   "article_number_in_catalog": "676-37-60551-63-3",
+   "organization": "Boston University",
+   "field_of_study": "Art",
+   "article_dt": "2/19/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 77,
+   "article_number_in_catalog": "540-52-87080-35-1",
+   "organization": "Florida State University",
+   "field_of_study": "Physical Education",
+   "article_dt": "8/24/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 78,
+   "article_number_in_catalog": "637-44-50367-01-8",
+   "organization": "Northeastern University",
+   "field_of_study": "American Literature",
+   "article_dt": "5/10/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 79,
+   "article_number_in_catalog": "744-51-35402-02-1",
+   "organization": "Northwestern University",
+   "field_of_study": "Mathematics",
+   "article_dt": "8/19/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 80,
+   "article_number_in_catalog": "401-61-54307-78-0",
+   "organization": "Rice University",
+   "field_of_study": "Design and technology",
+   "article_dt": "5/25/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 81,
+   "article_number_in_catalog": "813-36-06165-60-5",
+   "organization": "University of California, Davis",
+   "field_of_study": "Trigonometry",
+   "article_dt": "12/1/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 82,
+   "article_number_in_catalog": "234-75-55185-42-5",
+   "organization": "University of North Carolina, Chapel Hill",
+   "field_of_study": "Science",
+   "article_dt": "5/30/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "02:29"
+ },
+ {
+   "article_id": 83,
+   "article_number_in_catalog": "283-53-38704-50-8",
+   "organization": "University of Texas at Austin",
+   "field_of_study": "American Literature",
+   "article_dt": "12/10/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "03:51"
+ },
+ {
+   "article_id": 84,
+   "article_number_in_catalog": "065-64-76228-31-7",
+   "organization": "University of Texas at Austin",
+   "field_of_study": "Latin",
+   "article_dt": "11/11/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "19:05"
+ },
+ {
+   "article_id": 85,
+   "article_number_in_catalog": "262-10-87541-23-8",
+   "organization": "Texas A&M University",
+   "field_of_study": "Speech",
+   "article_dt": "4/27/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "09:28"
+ },
+ {
+   "article_id": 86,
+   "article_number_in_catalog": "285-85-75680-83-0",
+   "organization": "The Ohio State University",
+   "field_of_study": "Trigonometry",
+   "article_dt": "3/9/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "00:22"
+ },
+ {
+   "article_id": 87,
+   "article_number_in_catalog": "831-36-04556-60-1",
+   "organization": "University of California, Berkeley (UCB)",
+   "field_of_study": "Art",
+   "article_dt": "7/10/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 88,
+   "article_number_in_catalog": "523-67-07605-15-5",
+   "organization": "University of Colorado, Denver",
+   "field_of_study": "Physical Education",
+   "article_dt": "4/22/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 89,
+   "article_number_in_catalog": "413-15-83248-84-1",
+   "organization": "University of California, Santa Cruz",
+   "field_of_study": "Basic Math",
+   "article_dt": "10/21/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 90,
+   "article_number_in_catalog": "262-08-88552-08-5",
+   "organization": "University of Colorado, Denver",
+   "field_of_study": "LOGIC",
+   "article_dt": "3/6/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "20:32"
+ },
+ {
+   "article_id": 91,
+   "article_number_in_catalog": "242-67-56673-20-4",
+   "organization": "University of New Mexico",
+   "field_of_study": "Resource Program",
+   "article_dt": "8/2/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "06:18"
+ },
+ {
+   "article_id": 92,
+   "article_number_in_catalog": "616-51-08325-60-5",
+   "organization": "University of South Florida",
+   "field_of_study": "Science",
+   "article_dt": "6/14/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 93,
+   "article_number_in_catalog": "388-10-02361-85-4",
+   "organization": "University of Oklahoma",
+   "field_of_study": "Modern Literature",
+   "article_dt": "11/19/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 94,
+   "article_number_in_catalog": "170-42-37783-62-6",
+   "organization": "University of California, Los Angeles (UCLA)",
+   "field_of_study": "Spanish",
+   "article_dt": "3/24/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "21:33"
+ },
+ {
+   "article_id": 95,
+   "article_number_in_catalog": "680-37-33306-56-2",
+   "organization": "Florida State University",
+   "field_of_study": "French",
+   "article_dt": "2/27/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 96,
+   "article_number_in_catalog": "327-87-00534-73-5",
+   "organization": "Harvard University",
+   "field_of_study": "Art",
+   "article_dt": "11/6/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 97,
+   "article_number_in_catalog": "586-82-15568-05-1",
+   "organization": "Illinois Institute of Technology",
+   "field_of_study": "Ecology",
+   "article_dt": "2/11/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 98,
+   "article_number_in_catalog": "868-86-32122-51-8",
+   "organization": "University of California, San Diego (UCSD)",
+   "field_of_study": "American Literature",
+   "article_dt": "10/18/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 99,
+   "article_number_in_catalog": "780-06-54732-37-1",
+   "organization": "University of New Mexico",
+   "field_of_study": "History",
+   "article_dt": "9/3/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 100,
+   "article_number_in_catalog": "441-25-42103-11-8",
+   "organization": "Princeton University",
+   "field_of_study": "Ancient Civilizations",
+   "article_dt": "8/14/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 101,
+   "article_number_in_catalog": "842-76-67622-04-4",
+   "organization": "Brown University",
+   "field_of_study": "Mathematics",
+   "article_dt": "5/22/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 102,
+   "article_number_in_catalog": "217-80-07208-11-6",
+   "organization": "University of California, Los Angeles (UCLA)",
+   "field_of_study": "Trigonometry",
+   "article_dt": "12/2/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "09:36"
+ },
+ {
+   "article_id": 103,
+   "article_number_in_catalog": "781-70-06278-28-6",
+   "organization": "University of Kansas",
+   "field_of_study": "Instrumental Music",
+   "article_dt": "10/15/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 104,
+   "article_number_in_catalog": "556-45-08223-78-8",
+   "organization": "New York University",
+   "field_of_study": "Science",
+   "article_dt": "10/24/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 105,
+   "article_number_in_catalog": "866-57-37774-45-1",
+   "organization": "The Katz School at Yeshiva University",
+   "field_of_study": "Ecology",
+   "article_dt": "11/26/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 106,
+   "article_number_in_catalog": "774-56-66811-27-7",
+   "organization": "Johns Hopkins University",
+   "field_of_study": "Ancient Civilizations",
+   "article_dt": "8/15/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 107,
+   "article_number_in_catalog": "036-23-45370-77-7",
+   "organization": "University of Vermont",
+   "field_of_study": "Language Arts",
+   "article_dt": "1/18/2021",
+   "acceptance_fg": 1,
+   "presentation_time": "00:19"
+ },
+ {
+   "article_id": 108,
+   "article_number_in_catalog": "617-77-58742-44-2",
+   "organization": "Florida State University",
+   "field_of_study": "Economics",
+   "article_dt": "9/21/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 109,
+   "article_number_in_catalog": "560-24-07181-70-0",
+   "organization": "Duke University",
+   "field_of_study": "Trigonometry",
+   "article_dt": "12/8/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ },
+ {
+   "article_id": 110,
+   "article_number_in_catalog": "415-60-55376-01-0",
+   "organization": "Columbia University",
+   "field_of_study": "History",
+   "article_dt": "12/18/2021",
+   "acceptance_fg": 0,
+   "presentation_time": ""
+ }
+]
