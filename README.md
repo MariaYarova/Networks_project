@@ -19,11 +19,17 @@
 
 ```docker-compose up --build```
 
-2. Build осуществляется с помощью CMake.
+2. Build осуществляется с помощью CMake из директории `main`:
+```
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+```
 
 3. Приложение запускается командой: 
 
-```sudo ./build/hl_mai_lab_01 --host=localhost --port=3306 --login=stud --password=stud --database=stud```
+```sudo ./build/server --host=localhost --port=3306 --login=stud --password=stud --database=stud```
 
 4. Заполнение базы данных статей осуществляется в директории [fill_articles](main/server/fill_articles), а информаци о докладчиках в [fill_persons](main/server/fill_persons), build также осуществляется с помощью CMake.
 
@@ -48,6 +54,7 @@ cmake ..
 cmake --build . --config Release
 sudo cmake --build . --target install
 cd
+sudo ldconfig
 ```
 
 
