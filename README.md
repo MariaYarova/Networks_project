@@ -19,7 +19,18 @@
 
 ```docker-compose up --build```
 
-2. Build осуществляется с помощью CMake из директории `main`:
+2. Заполнение базы данных статей осуществляется в директории [fill_articles](main/server/fill_articles), а информаци о докладчиках в [fill_persons](main/server/fill_persons), build также осуществляется с помощью CMake. Пример для заполнения базы докладчиков:
+```
+cd fill_persons
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+cd ../
+./sql_load
+
+
+3. Build осуществляется с помощью CMake из директории `main`:
 ```
 mkdir build
 cd build
@@ -27,11 +38,10 @@ cmake ..
 cmake --build . --config Release
 ```
 
-3. Приложение запускается командой: 
+4. Приложение запускается командой: 
 
 ```sudo ./build/server --host=localhost --port=3306 --login=stud --password=stud --database=stud```
 
-4. Заполнение базы данных статей осуществляется в директории [fill_articles](main/server/fill_articles), а информаци о докладчиках в [fill_persons](main/server/fill_persons), build также осуществляется с помощью CMake.
 
 
 ## Зависимости
