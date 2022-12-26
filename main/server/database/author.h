@@ -30,7 +30,7 @@ namespace database
 
             static Author read_by_login(std::string login);
             static std::vector<Author> read_all();
-            static std::vector<Author> search(std::string first_name,std::string last_name);
+            static std::vector<Author> search(std::string first_name,std::string last_name, int shard);
             void save_to_mysql();
 
             Poco::JSON::Object::Ptr toJSON() const;

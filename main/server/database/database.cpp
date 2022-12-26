@@ -5,6 +5,8 @@ namespace database{
     Database::Database(){
         _connection_string+="host=";
         _connection_string+=Config::get().get_host();
+        _connection_string+=";port=";
+        _connection_string+=Config::get().get_port();
         _connection_string+=";user=";
         _connection_string+=Config::get().get_login();
         _connection_string+=";db=";
@@ -25,4 +27,14 @@ namespace database{
         return Poco::Data::Session(_pool->get());
     }
 
+    size_t Database::shards_number(){
+        return 2;
+    }
+
+    std::string Database::sharding_hint(std::string login){
+        size_t shard_number = std::hash<std::string>{}(login) % shards_number();
+        std::string result = "-- sharding:";
+        result += std::to_string(shard_number);
+        return result;
+    }
 }

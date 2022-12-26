@@ -138,10 +138,15 @@ public:
                 {
                     std::string fn = form.get("first_name");
                     std::string ln = form.get("last_name");
-                    auto results = database::Author::search(fn, ln);
+                    auto res_shard_0 = database::Author::search(fn, ln, 0);
+                    auto res_shard_1 = database::Author::search(fn, ln, 1);
+                    
                     Poco::JSON::Array arr;
-                    for (auto s : results)
+                    for (auto s : res_shard_0)
                         arr.add(s.toJSON());
+                    for (auto s: res_shard_1)
+                        arr.add(s.toJSON());
+
                     response.setStatus(Poco::Net::HTTPResponse::HTTP_OK);
                     response.setChunkedTransferEncoding(true);
                     response.setContentType("application/json");

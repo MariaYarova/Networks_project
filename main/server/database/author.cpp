@@ -51,8 +51,10 @@ namespace database
         {
             Poco::Data::Session session = database::Database::get().create_session();
             Poco::Data::Statement select(session);
+
             Author a;
-            select << "SELECT login, first_name, last_name, email, login FROM Author where login=?",
+            std::string shard = Database::sharding_hint(login);
+            select << "SELECT login, first_name, last_name, email, login FROM Author where login=?" + shard,
                 into(a._login),
                 into(a._first_name),
                 into(a._last_name),
@@ -117,7 +119,7 @@ namespace database
         }
     }
 
-    std::vector<Author> Author::search(std::string first_name, std::string last_name)
+    std::vector<Author> Author::search(std::string first_name, std::string last_name, int shard)
     {
         try
         {
@@ -127,7 +129,7 @@ namespace database
             Author a;
             first_name+="%";
             last_name+="%";
-            select << "SELECT first_name, last_name, email, login FROM Author where first_name LIKE ? and last_name LIKE ?",
+            select << "SELECT first_name, last_name, email, login FROM Author where first_name LIKE ? and last_name LIKE ?-- sharding:" + std::to_string(shard),
                 into(a._first_name),
                 into(a._last_name),
                 into(a._email),
@@ -165,7 +167,8 @@ namespace database
             Poco::Data::Session session = database::Database::get().create_session();
             Poco::Data::Statement insert(session);
 
-            insert << "INSERT INTO Author (login,first_name,last_name,email) VALUES(?, ?, ?, ?)",
+            std::string sharding_hint = database::Database::sharding_hint(_login);
+            insert << "INSERT INTO Author (login,first_name,last_name,email) VALUES(?, ?, ?, ?)" + sharding_hint,
                 use(_login),
                 use(_first_name),
                 use(_last_name),

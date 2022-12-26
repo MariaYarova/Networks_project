@@ -29,7 +29,7 @@ auto main(int argc, char *argv[]) -> int
     std::string connection_str;
     connection_str = "host=";
     connection_str += host;
-    connection_str += ";user=stud;db=stud;password=stud";
+    connection_str += ";user=test;db=sql_test;password=pzjqUkMnc7vfNHET;port=6033";
 
     std::cout << "connectiong to: " << connection_str << std::endl;
     Poco::Data::Session session(
@@ -38,19 +38,35 @@ auto main(int argc, char *argv[]) -> int
     std::cout << "session created" << std::endl;
     try
     {
+        // shard 0
+        Poco::Data::Statement create_stmt_0(session);
+        create_stmt_0 << "CREATE TABLE IF NOT EXISTS `Author` ("
+                    << "`login` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL UNIQUE,"
+                    << "`first_name` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,"
+                    << "`last_name` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,"
+                    << "`email` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,"
+                    << "PRIMARY KEY (`login`))-- sharding:0;";
+        create_stmt_0.execute();
+        std::cout << "table for shard 0 created" << std::endl;
+
+        Poco::Data::Statement truncate_stmt_0(session);
+        truncate_stmt_0 << "TRUNCATE TABLE `Author`-- sharding:0;";
+        truncate_stmt_0.execute();
+
+        // shard 1
         Poco::Data::Statement create_stmt(session);
         create_stmt << "CREATE TABLE IF NOT EXISTS `Author` ("
                     << "`login` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL UNIQUE,"
                     << "`first_name` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,"
                     << "`last_name` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,"
                     << "`email` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,"
-                    << "PRIMARY KEY (`login`));";
+                    << "PRIMARY KEY (`login`))-- sharding:1;";
         create_stmt.execute();
-        std::cout << "table created" << std::endl;
+        std::cout << "table for shard 1 created" << std::endl;
 
-        Poco::Data::Statement truncate_stmt(session);
-        truncate_stmt << "TRUNCATE TABLE `Author`;";
-        truncate_stmt.execute();
+        Poco::Data::Statement truncate_stmt_1(session);
+        truncate_stmt_1 << "TRUNCATE TABLE `Author`-- sharding:1;";
+        truncate_stmt_1.execute();
 
         // https://www.onlinedatagenerator.com/
         std::string json;
@@ -81,7 +97,9 @@ auto main(int argc, char *argv[]) -> int
             std::string login = "login_" + std::to_string(i);
 
             Poco::Data::Statement insert(session);
-            insert << "INSERT INTO Author (login,first_name,last_name,email) VALUES(?, ?, ?, ?)",
+
+            size_t shard_number = std::hash<std::string>{}(login) % 2;
+            insert << "INSERT INTO Author (login,first_name,last_name,email) VALUES(?, ?, ?, ?)-- sharding:" + std::to_string(shard_number),
                 Poco::Data::Keywords::use(login),
                 Poco::Data::Keywords::use(first_name),
                 Poco::Data::Keywords::use(last_name),
